@@ -8,7 +8,7 @@ import { LanguageProvider } from './contexts/LanguageContext';
 
 import './App.css';
 
-function App() {
+export default function App() {
   return (
     <ThemeProvider>
       <LanguageProvider>
@@ -20,5 +20,3 @@ function App() {
     </ThemeProvider>
   );
 }
-
-export default App;
